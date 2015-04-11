@@ -14,6 +14,7 @@
 		C0667C281AD9269F00A73EBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0667C271AD9269F00A73EBD /* Images.xcassets */; };
 		C0667C2B1AD9269F00A73EBD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0667C291AD9269F00A73EBD /* LaunchScreen.xib */; };
 		C0667C371AD9269F00A73EBD /* SwiftTodoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0667C361AD9269F00A73EBD /* SwiftTodoListTests.swift */; };
+		C0667C411AD927CB00A73EBD /* myTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0667C401AD927CB00A73EBD /* myTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,9 @@
 		C0667C301AD9269F00A73EBD /* SwiftTodoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTodoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0667C351AD9269F00A73EBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0667C361AD9269F00A73EBD /* SwiftTodoListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTodoListTests.swift; sourceTree = "<group>"; };
+		C0667C401AD927CB00A73EBD /* myTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myTableViewController.swift; sourceTree = "<group>"; };
+		C0667C421AD9978200A73EBD /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		C0667C431AD9978200A73EBD /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,7 @@
 				C0667C1D1AD9269E00A73EBD /* AppDelegate.swift */,
 				C0667C221AD9269E00A73EBD /* ViewController.swift */,
 				C0667C241AD9269F00A73EBD /* Main.storyboard */,
+				C0667C401AD927CB00A73EBD /* myTableViewController.swift */,
 				C0667C271AD9269F00A73EBD /* Images.xcassets */,
 				C0667C291AD9269F00A73EBD /* LaunchScreen.xib */,
 				C0667C1F1AD9269E00A73EBD /* SwiftTodoList.xcdatamodeld */,
@@ -218,6 +223,7 @@
 				C0667C231AD9269E00A73EBD /* ViewController.swift in Sources */,
 				C0667C1E1AD9269E00A73EBD /* AppDelegate.swift in Sources */,
 				C0667C211AD9269E00A73EBD /* SwiftTodoList.xcdatamodeld in Sources */,
+				C0667C411AD927CB00A73EBD /* myTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +250,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C0667C251AD9269F00A73EBD /* Base */,
+				C0667C421AD9978200A73EBD /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -252,6 +259,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C0667C2A1AD9269F00A73EBD /* Base */,
+				C0667C431AD9978200A73EBD /* ja */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";

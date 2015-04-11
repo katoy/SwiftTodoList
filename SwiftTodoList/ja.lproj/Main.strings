@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "Add"; ObjectID = "GOj-wG-aKQ"; */
+"GOj-wG-aKQ.normalTitle" = "Add";
+
+/* Class = "UILabel"; text = "Enter a new task:"; ObjectID = "NQz-1w-SuR"; */
+"NQz-1w-SuR.text" = "Enter a new task:";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "lzi-yt-GCT"; */
+"lzi-yt-GCT.normalTitle" = "Cancel";
